@@ -1,0 +1,42 @@
+Welcome to Lumkile's Tutor App
+Learn mathematics interactively, covering solving for X, trigonometry, simultaneous equations, and algebraic expressions.
+
+<div class="topic">
+<h2>Solving for X</h2>
+<p>To solve for X, isolate the variable on one side of the equation.</p>
+<div class="quiz">
+<h4>Quizzes:</h4>
+<label>1. What is X in 2X + 3 = 9?</label><br>
+<input type="number" id="q1">
+<button onclick="checkAnswer('q1', 3)">Check</button>
+<span id="q1-result"></span><br><br>
+
+<label>2. Solve for X: 5(X - 2) = 15.</label><br>
+<input type="number" id="q2">
+<button onclick="checkAnswer('q2', 5)">Check</button>
+<span id="q2-result"></span><br><br>
+
+<label>3. If 3X + 4 = 19, what is X?</label><br>
+<input type="number" id="q3">
+<button onclick="checkAnswer('q3', 5)">Check</button>
+<span id="q3-result"></span><br><br>
+</div>
+</div>
+
+<div class="topic">
+<h2>Trigonometry</h2>
+<p>Learn the basics of trigonometry including sine, cosine, and tangent.</p>
+<div class="quiz">
+<h4>Quizzes:</h4>
+<label>1. What is sin(30 degrees)?</label><br>
+<input type="text" id="q4">
+<button onclick="checkAnswer('q4', '0.5')">Check</button>
+<span id="q4-result"></span><br><br>
+
+<label>2. Find the value of tan(45 degrees).</label><br>
+<input type="text" id="q5">
+<button onclick="checkAnswer('q5', '1')">Check</button>
+<span id="q5-result"></span><br><br>
+</div>
+</div>
+</div>
